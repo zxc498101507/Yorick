@@ -1,0 +1,22 @@
+{
+  "name": "developer-dashboard",
+  "version": "1.0.0",
+  "description": "Standard developer project template with a premium glassmorphic task board and Jest unit tests.",
+  "main": "src/js/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "dev": "npx -y serve src"
+  },
+  "keywords": [
+    "dashboard",
+    "glassmorphism",
+    "todo",
+    "boilerplate"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
